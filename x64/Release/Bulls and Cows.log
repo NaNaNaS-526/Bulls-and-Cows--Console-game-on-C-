@@ -1,11 +1,9 @@
 ﻿  gamelogic.c
-D:\Projects\Bulls and Cows\gamelogic.c(14,31): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
-D:\Projects\Bulls and Cows\gamelogic.c(14,31): error C2075: "secretNumberArray": для инициализации требуется список инициализаторов, заключенный в фигурные скобки.
+D:\Projects\Bulls and Cows\gamelogic.c(14,30): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Projects\Bulls and Cows\gamelogic.c(14,10): warning C4047: инициализация: "int *" отличается по уровням косвенного обращения от "int"
 D:\Projects\Bulls and Cows\gamelogic.c(23,10): warning C4047: инициализация: "int *" отличается по уровням косвенного обращения от "int"
 D:\Projects\Bulls and Cows\gamelogic.c(56,44): warning C4020: CheckForMatches: слишком много фактических параметров
-D:\Projects\Bulls and Cows\gamelogic.c(67,14): warning C4013: CheckForNumber: нет определения; предполагается "extern" с возвратом типа "int"
-D:\Projects\Bulls and Cows\gamelogic.c(63,32): error C2075: "currentNumberArray": для инициализации требуется список инициализаторов, заключенный в фигурные скобки.
-D:\Projects\Bulls and Cows\gamelogic.c(92,6): error C2371: CheckForNumber: переопределение; различные базовые типы
+D:\Projects\Bulls and Cows\gamelogic.c(63,10): warning C4047: инициализация: "int *" отличается по уровням косвенного обращения от "int"
 D:\Projects\Bulls and Cows\gamelogic.c(99,115): warning C4554: "|": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
 D:\Projects\Bulls and Cows\gamelogic.c(107,1): warning C4029: объявленный список формальных параметров отличается от объявления
 D:\Projects\Bulls and Cows\gamelogic.c(116,72): error C2065: currentNumberArray: необъявленный идентификатор
@@ -14,3 +12,5 @@ D:\Projects\Bulls and Cows\gamelogic.c(121,65): error C2065: currentNumberArray:
 D:\Projects\Bulls and Cows\gamelogic.c(121,64): error C2109: для индекса требуется массив или указатель
 D:\Projects\Bulls and Cows\gamelogic.c(130,28): warning C4020: Win: слишком много фактических параметров
 D:\Projects\Bulls and Cows\gamelogic.c(138,1): warning C4029: объявленный список формальных параметров отличается от объявления
+  main.c
+D:\Projects\Bulls and Cows\main.c(5,11): warning C4013: getchar: нет определения; предполагается "extern" с возвратом типа "int"
