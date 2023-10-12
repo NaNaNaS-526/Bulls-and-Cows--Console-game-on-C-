@@ -43,7 +43,6 @@ int GenerateSecretNumber(int secretNumberLength)
 	{
 		secretNumber = secretNumber * 10 + numbers[i];
 	}
-	printf("%d\n", secretNumber);
 	return secretNumber;
 }
 
@@ -103,6 +102,6 @@ bool CheckUserNumberForBullsAndCows(int userNumber, int secretNumber, int secret
         }
 	}
 	printf("\t\tBulls: %d | Cows: %d\n", bulls, cows);
-	if (bulls == 4) return true;
+	if (bulls == secretNumberLength) return true;
 	return false;
 }
